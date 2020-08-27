@@ -1,0 +1,8 @@
+*.autosave
+*.user.*
+debug/
+release/
+Win32/
+*.qmake.*
+*.vcxproj*
+.vs*
