@@ -432,7 +432,7 @@ void CommandHandler::onMessage(QString channel, QString sender, QString message)
         {
             QString url;
             {
-                url = "https://www.googleapis.com/youtube/v3/videos?part=contentDetails%2C+snippet&id=" + videoID + "&key=AIzaSyDtb6zd8zTF9Fjgqa-gt6AK6AsHRX18TOc";
+                url = "https://www.googleapis.com/youtube/v3/videos?part=contentDetails%2C+snippet&id=" + videoID + "";
             }
 			emit updateDebugConsole(url);
             m_YouTubeAPICurrentChannel = channel;
